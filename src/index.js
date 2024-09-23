@@ -41,7 +41,7 @@ let cityTime = moment().tz(cityTimeZone);
     <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format(
     " a"
   )}</small></div>
-  </div>
+  </div></br><a href="index.html" class="index">All Cities</a>
   `;}
 
 
